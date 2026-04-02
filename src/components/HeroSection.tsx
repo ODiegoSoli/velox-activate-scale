@@ -8,7 +8,7 @@ const rotatingWords = [
   "atraso nos projetos",
   "retrabalho constante",
   "perda de clientes",
-  "improviso diario",
+  "improviso diário",
 ];
 
 const HeroSection = () => {
@@ -30,7 +30,7 @@ const HeroSection = () => {
       <div className="relative z-10 container max-w-4xl text-center py-16 md:py-32 px-4 md:px-6">
         <ScrollReveal>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white leading-tight tracking-[-0.02em] text-center">
-            Se sua agencia ja esta crescendo,
+            Se sua agência já está crescendo,
             <br />
             mas o onboarding virou um
           </h1>
@@ -55,8 +55,8 @@ const HeroSection = () => {
 
         <ScrollReveal delay={0.15}>
           <p className="mt-6 md:mt-8 text-base md:text-lg lg:text-xl font-body text-white/50 text-balance max-w-2xl mx-auto leading-relaxed">
-            O Metodo Velox estrutura a ativacao de novos clientes em ate 2 horas,
-            eliminando atrasos, retrabalho e desorganizacao nos primeiros dias do projeto.
+            O Método Velox estrutura a ativação de novos clientes em até 2 horas,
+            eliminando atrasos, retrabalho e desorganização nos primeiros dias do projeto.
           </p>
         </ScrollReveal>
 
@@ -77,7 +77,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
             </button>
             <p className="text-sm text-white/30">
-              Sessao estrategica de 30 minutos
+              Sessão estratégica de 30 minutos
             </p>
           </div>
         </ScrollReveal>

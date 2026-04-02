@@ -35,7 +35,7 @@ const ProblemSection = () => {
         <ScrollReveal delay={0.3}>
           <div className="mt-8 md:mt-12 text-center">
             <p className="text-base md:text-lg text-muted-foreground">
-              Se esforço fosse a chave você ja teria resolvido      
+              Se esforço fosse a chave, você já teria resolvido.      
    
             
             </p>

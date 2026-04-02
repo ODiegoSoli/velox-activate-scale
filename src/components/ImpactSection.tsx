@@ -15,7 +15,7 @@ const ImpactSection = () => {
         <ScrollReveal delay={0.15}>
           <div
             className="mt-8 md:mt-12 rounded-xl p-5 md:p-8 lg:p-10 border border-secondary/20"
-            style={{ background: "hsl(225 20% 10%)" }}
+            style={{ background: "hsl(230 14% 10%)" }}
           >
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
               Se sua agência cobra{" "}

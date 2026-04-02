@@ -3,7 +3,7 @@ import { Cpu } from "lucide-react";
 
 const SolutionSection = () => {
   return (
-    <section className="py-16 md:py-28 relative" style={{ background: "hsl(225 22% 8%)" }}>
+    <section className="py-16 md:py-28 relative" style={{ background: "hsl(230 16% 8%)" }}>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[200px] md:w-[600px] md:h-[400px] glow-radial pointer-events-none" />
 
       <div className="container max-w-3xl relative z-10 px-4 md:px-6">
@@ -11,7 +11,7 @@ const SolutionSection = () => {
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground text-center text-balance">
             Foi para resolver isso que criamos o{" "}
-            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(210 100% 62% / 0.15)" }}>
+            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(165 70% 46% / 0.15)" }}>
               Método Velox.
             </span>
           </h2>
@@ -29,7 +29,7 @@ const SolutionSection = () => {
           <div
             className="mt-10 md:mt-16 rounded-lg p-5 md:p-8 lg:p-10 border border-primary/20 text-center"
             style={{
-              background: "hsl(225 22% 10%)",
+              background: "hsl(230 14% 10%)",
             }}
           >
             <div className="flex items-center justify-center gap-3 mb-4">

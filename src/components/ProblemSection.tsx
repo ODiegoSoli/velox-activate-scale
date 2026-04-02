@@ -40,7 +40,7 @@ const ProblemSection = () => {
             
             </p>
             <p className="mt-2 font-display font-bold text-foreground text-2xl md:text-3xl lg:text-4xl">
-              É falta de <span className="text-primary" style={{ textShadow: "0 0 20px hsl(210 100% 62% / 0.15)" }}>estrutura.</span>
+              É falta de <span className="text-primary" style={{ textShadow: "0 0 20px hsl(165 70% 46% / 0.15)" }}>estrutura.</span>
             </p>
           </div>
         </ScrollReveal>

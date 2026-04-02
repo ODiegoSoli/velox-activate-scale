@@ -4,52 +4,52 @@
 
 @layer base {
   :root {
-    /* Dark premium theme */
-    --background: 225 25% 6%;
-    --foreground: 210 20% 92%;
+    /* Velox Noir — Premium rebrand */
+    --background: 230 18% 5%;
+    --foreground: 40 8% 92%;
 
-    --card: 225 22% 10%;
-    --card-foreground: 210 20% 92%;
+    --card: 230 14% 9%;
+    --card-foreground: 40 8% 92%;
 
-    --popover: 225 22% 10%;
-    --popover-foreground: 210 20% 92%;
+    --popover: 230 14% 9%;
+    --popover-foreground: 40 8% 92%;
 
-    --primary: 210 100% 62%;
+    --primary: 165 70% 46%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 350 80% 58%;
+    --secondary: 32 95% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 225 18% 16%;
-    --muted-foreground: 215 15% 55%;
+    --muted: 230 10% 15%;
+    --muted-foreground: 220 8% 52%;
 
-    --accent: 210 100% 62%;
+    --accent: 165 70% 46%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 350 80% 58%;
+    --destructive: 0 72% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 225 15% 15%;
-    --input: 225 15% 15%;
-    --ring: 210 100% 62%;
+    --border: 230 10% 13%;
+    --input: 230 10% 13%;
+    --ring: 165 70% 46%;
 
     --radius: 0.5rem;
 
     /* Premium tokens */
-    --surface-alt: 225 20% 9%;
-    --chaos-bg: 350 80% 58%;
+    --surface-alt: 230 14% 8%;
+    --chaos-bg: 32 95% 55%;
     --chaos-fg: 0 0% 100%;
-    --glow-primary: 210 100% 62%;
-    --glow-secondary: 260 60% 55%;
+    --glow-primary: 165 70% 46%;
+    --glow-secondary: 32 80% 50%;
 
-    --sidebar-background: 225 22% 8%;
-    --sidebar-foreground: 210 20% 92%;
-    --sidebar-primary: 210 100% 62%;
+    --sidebar-background: 230 14% 8%;
+    --sidebar-foreground: 40 8% 92%;
+    --sidebar-primary: 165 70% 46%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 225 18% 14%;
-    --sidebar-accent-foreground: 210 20% 92%;
-    --sidebar-border: 225 15% 15%;
-    --sidebar-ring: 210 100% 62%;
+    --sidebar-accent: 230 10% 14%;
+    --sidebar-accent-foreground: 40 8% 92%;
+    --sidebar-border: 230 10% 13%;
+    --sidebar-ring: 165 70% 46%;
   }
 }
 
@@ -80,9 +80,9 @@ html {
   background: linear-gradient(
     180deg,
     transparent 0%,
-    hsl(210 100% 62% / 0.4) 30%,
-    hsl(210 100% 62% / 0.6) 50%,
-    hsl(210 100% 62% / 0.4) 70%,
+    hsl(165 70% 46% / 0.4) 30%,
+    hsl(165 70% 46% / 0.6) 50%,
+    hsl(165 70% 46% / 0.4) 70%,
     transparent 100%
   );
 }
@@ -90,7 +90,7 @@ html {
 .glow-radial {
   background: radial-gradient(
     ellipse at center,
-    hsl(210 100% 62% / 0.04) 0%,
+    hsl(165 70% 46% / 0.04) 0%,
     transparent 70%
   );
 }
@@ -107,9 +107,9 @@ html {
   padding: 1px;
   background: linear-gradient(
     135deg,
-    hsl(210 100% 62% / 0.15),
+    hsl(165 70% 46% / 0.15),
     transparent 50%,
-    hsl(260 60% 55% / 0.1)
+    hsl(32 80% 50% / 0.1)
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -119,8 +119,8 @@ html {
 
 .grid-bg {
   background-image:
-    linear-gradient(hsl(210 100% 62% / 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, hsl(210 100% 62% / 0.03) 1px, transparent 1px);
+    linear-gradient(hsl(165 70% 46% / 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(165 70% 46% / 0.03) 1px, transparent 1px);
   background-size: 80px 80px;
 }
 

@@ -68,8 +68,8 @@ const HeroSection = () => {
               data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
               className="relative group font-display font-semibold text-base md:text-lg px-6 py-3 md:px-10 md:py-4 rounded-md transition-all overflow-hidden tracking-[-0.01em] hover:scale-[1.02] active:scale-[0.98]"
               style={{
-                background: "hsl(210 100% 62%)",
-                boxShadow: "0 1px 2px rgba(0,0,0,0.4), 0 4px 20px hsl(210 100% 62% / 0.2)",
+                background: "hsl(165 70% 46%)",
+                boxShadow: "0 1px 2px rgba(0,0,0,0.4), 0 4px 20px hsl(165 70% 46% / 0.2)",
                 color: "#fff",
               }}
             >

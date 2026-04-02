@@ -24,7 +24,7 @@ const ClosingSection = () => {
         <ScrollReveal delay={0.3}>
           <p className="mt-10 text-3xl md:text-4xl font-display font-bold text-foreground">
             A questão é:{" "}
-            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(210 100% 62% / 0.15)" }}>
+            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(165 70% 46% / 0.15)" }}>
               até quando?
             </span>
           </p>

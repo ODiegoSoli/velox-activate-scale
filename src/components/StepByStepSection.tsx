@@ -29,7 +29,7 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
           animate={isInView ? { scale: 1, opacity: 1 } : {}}
           transition={{ duration: 0.4, delay: 0.1 }}
           className="relative w-4 h-4 rounded-full shrink-0 z-10"
-          style={{ background: "hsl(210 100% 62%)" }}
+          style={{ background: "hsl(165 70% 46%)" }}
         >
           {/* Glow pulse */}
           <motion.div
@@ -37,20 +37,20 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
             animate={isInView ? { scale: [1, 2.5, 1], opacity: [0.6, 0, 0.6] } : {}}
             transition={{ duration: 2, repeat: Infinity, delay: index * 0.3 }}
             className="absolute inset-0 rounded-full"
-            style={{ background: "hsl(210 100% 62% / 0.3)" }}
+            style={{ background: "hsl(165 70% 46% / 0.3)" }}
           />
         </motion.div>
 
         {/* Beam line */}
         {index < steps.length - 1 && (
-          <div className="relative w-[2px] flex-1 min-h-[40px] overflow-hidden" style={{ background: "hsl(225 15% 18%)" }}>
+          <div className="relative w-[2px] flex-1 min-h-[40px] overflow-hidden" style={{ background: "hsl(230 10% 18%)" }}>
             <motion.div
               initial={{ height: 0 }}
               animate={isInView ? { height: "100%" } : {}}
               transition={{ duration: 0.6, delay: 0.3 }}
               className="absolute top-0 left-0 w-full"
               style={{
-                background: "linear-gradient(180deg, hsl(210 100% 62% / 0.6), hsl(210 100% 62% / 0.15))",
+                background: "linear-gradient(180deg, hsl(165 70% 46% / 0.6), hsl(165 70% 46% / 0.15))",
               }}
             />
             {/* Traveling light beam */}
@@ -60,7 +60,7 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
               transition={{ duration: 1.2, delay: 0.5, repeat: Infinity, repeatDelay: 2 }}
               className="absolute left-0 w-full h-5"
               style={{
-                background: "linear-gradient(180deg, transparent, hsl(210 100% 62% / 0.7), transparent)",
+                background: "linear-gradient(180deg, transparent, hsl(165 70% 46% / 0.7), transparent)",
               }}
             />
           </div>
@@ -76,7 +76,7 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
       >
         <div
           className="rounded-xl p-3 md:p-5 border border-border/50 hover:border-primary/40 transition-all duration-300 group"
-          style={{ background: "hsl(225 22% 10%)" }}
+          style={{ background: "hsl(230 14% 10%)" }}
         >
           <motion.div
             initial={{ opacity: 0 }}
@@ -87,7 +87,7 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
               {step.trigger}
             </p>
             <p className="mt-1.5 text-sm text-primary font-medium flex items-center gap-2">
-              <span className="inline-block w-4 h-[1px]" style={{ background: "hsl(210 100% 62% / 0.3)" }} />
+              <span className="inline-block w-4 h-[1px]" style={{ background: "hsl(165 70% 46% / 0.3)" }} />
               {step.result}
             </p>
           </motion.div>
@@ -106,7 +106,7 @@ const StepByStepSection = () => {
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground text-center text-balance">
             De cliente fechado a{" "}
-            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(210 100% 62% / 0.15)" }}>
+            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(165 70% 46% / 0.15)" }}>
               operação iniciada
             </span>{" "}
             em minutos

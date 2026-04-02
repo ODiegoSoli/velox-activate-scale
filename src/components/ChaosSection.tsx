@@ -2,7 +2,7 @@ import ScrollReveal from "./ScrollReveal";
 
 const ChaosSection = () => {
   return (
-    <section className="py-16 md:py-28 relative" style={{ background: "hsl(225 22% 8%)" }}>
+    <section className="py-16 md:py-28 relative" style={{ background: "hsl(230 16% 8%)" }}>
       <div className="container max-w-3xl relative z-10 px-4 md:px-6">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground text-center text-balance">

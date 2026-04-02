@@ -37,10 +37,10 @@ function createBeam(width: number, height: number, layer: number): Beam {
   };
 }
 
-// Velox blue: hsl(210 100% 62%) ~ rgb(62, 152, 255)
-const BEAM_R = 62;
-const BEAM_G = 152;
-const BEAM_B = 255;
+// Velox teal: hsl(165 70% 46%) ~ rgb(35, 199, 158)
+const BEAM_R = 35;
+const BEAM_G = 199;
+const BEAM_B = 158;
 
 export function HeroBeams() {
   const wrapperRef = useRef<HTMLDivElement>(null);
@@ -127,8 +127,8 @@ export function HeroBeams() {
       const { w, h } = sizeRef.current;
 
       const gradient = ctx.createLinearGradient(0, 0, 0, h);
-      gradient.addColorStop(0, "#0a0e1a");
-      gradient.addColorStop(1, "#0d1017");
+      gradient.addColorStop(0, "#080a10");
+      gradient.addColorStop(1, "#0a0c12");
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, w, h);
 

@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row items-center gap-3 md:gap-6">
             <span
               className="font-display font-bold text-base md:text-lg tracking-tight text-primary"
-              style={{ textShadow: "0 0 20px hsl(210 100% 62% / 0.1)" }}
+              style={{ textShadow: "0 0 20px hsl(165 70% 46% / 0.1)" }}
             >
               VELOX<span className="text-secondary">™</span>
             </span>

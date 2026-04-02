@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 
 const FinalCTASection = () => {
   return (
-    <section className="py-16 md:py-28 relative overflow-hidden" style={{ background: "hsl(225 25% 7%)" }}>
+    <section className="py-16 md:py-28 relative overflow-hidden" style={{ background: "hsl(230 18% 7%)" }}>
       {/* Top accent line */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[300px] h-[1px]" style={{ background: "linear-gradient(90deg, transparent, hsl(210 100% 62% / 0.25), transparent)" }} />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[300px] h-[1px]" style={{ background: "linear-gradient(90deg, transparent, hsl(165 70% 46% / 0.25), transparent)" }} />
       
 
       <div className="container max-w-3xl text-center relative z-10 px-4 md:px-6">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground text-balance">
             Agendar diagnóstico da{" "}
-            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(210 100% 62% / 0.15)" }}>
+            <span className="text-primary" style={{ textShadow: "0 0 20px hsl(165 70% 46% / 0.15)" }}>
               minha operação
             </span>
           </h2>
@@ -32,8 +32,8 @@ const FinalCTASection = () => {
               data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
               className="relative group font-display font-bold text-base md:text-lg px-6 py-3 md:px-10 md:py-4 rounded-md transition-all overflow-hidden hover:scale-[1.02] active:scale-[0.98]"
               style={{
-                background: "hsl(210 100% 62%)",
-                boxShadow: "0 1px 2px rgba(0,0,0,0.3), 0 4px 16px hsl(210 100% 62% / 0.15)",
+                background: "hsl(165 70% 46%)",
+                boxShadow: "0 1px 2px rgba(0,0,0,0.3), 0 4px 16px hsl(165 70% 46% / 0.15)",
                 color: "hsl(0 0% 100%)"
               }}>
               

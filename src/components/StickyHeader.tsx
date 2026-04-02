@@ -24,7 +24,7 @@ const StickyHeader = () => {
       <div className="container flex items-center justify-between h-14 md:h-16 px-4 md:px-6">
         <span
           className="font-display font-bold text-lg md:text-xl tracking-tight text-primary"
-          style={{ textShadow: "0 0 15px hsl(210 100% 62% / 0.15)" }}
+          style={{ textShadow: "0 0 15px hsl(165 70% 46% / 0.15)" }}
         >
           VELOX<span className="text-secondary">™</span>
         </span>
@@ -34,8 +34,8 @@ const StickyHeader = () => {
           data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
           className="relative group font-display font-semibold text-xs md:text-sm px-3 py-2 md:px-5 md:py-2.5 rounded-lg transition-all overflow-hidden border border-primary/30 min-h-[44px] flex items-center"
            style={{
-            background: "hsl(210 100% 62% / 0.08)",
-            color: "hsl(210 100% 70%)",
+            background: "hsl(165 70% 46% / 0.08)",
+            color: "hsl(165 70% 55%)",
           }}
         >
           <span className="relative z-10">Agendar Sessão</span>

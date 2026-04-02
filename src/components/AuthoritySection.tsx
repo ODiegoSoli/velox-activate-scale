@@ -22,7 +22,7 @@ const AuthoritySection = () => {
             <p className="text-base md:text-lg text-muted-foreground">
               Agências que escalam não operam no improviso.
             </p>
-            <p className="mt-3 font-display font-bold text-primary text-3xl md:text-4xl lg:text-5xl" style={{ textShadow: "0 0 20px hsl(210 100% 62% / 0.15)" }}>
+            <p className="mt-3 font-display font-bold text-primary text-3xl md:text-4xl lg:text-5xl" style={{ textShadow: "0 0 20px hsl(165 70% 46% / 0.15)" }}>
               Elas operam com sistemas.
             </p>
           </div>

@@ -2,12 +2,12 @@ import ScrollReveal from "./ScrollReveal";
 
 const FilterSection = () => {
   return (
-    <section className="py-16 md:py-28 relative" style={{ background: "hsl(225 22% 8%)" }}>
+    <section className="py-16 md:py-28 relative" style={{ background: "hsl(230 16% 8%)" }}>
       <div className="container max-w-3xl relative z-10 text-center px-4 md:px-6">
         <ScrollReveal>
           <div
             className="rounded-xl p-5 md:p-8 lg:p-10 border border-border/50"
-            style={{ background: "hsl(225 20% 10%)" }}
+            style={{ background: "hsl(230 14% 10%)" }}
           >
             <p className="text-sm font-display font-bold text-secondary uppercase tracking-widest mb-4">
               Importante

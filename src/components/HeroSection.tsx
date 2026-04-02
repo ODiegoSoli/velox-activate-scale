@@ -27,14 +27,14 @@ const HeroSection = () => {
       <HeroBeams />
 
       {/* Content */}
-      <div className="relative z-10 container max-w-4xl text-center py-20 md:py-32 px-6">
+      <div className="relative z-10 container max-w-4xl text-center py-16 md:py-32 px-4 md:px-6">
         <ScrollReveal>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white leading-tight tracking-[-0.02em] text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white leading-tight tracking-[-0.02em] text-center">
             Se sua agencia ja esta crescendo,
             <br />
             mas o onboarding virou um
           </h1>
-          <div className="relative w-full h-[1.3em] mt-2 overflow-hidden text-4xl md:text-5xl lg:text-6xl font-display font-bold">
+          <div className="relative w-full h-[1.3em] mt-2 overflow-hidden text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold">
             {rotatingWords.map((word, index) => (
               <motion.div
                 key={index}
@@ -54,19 +54,19 @@ const HeroSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.15}>
-          <p className="mt-8 text-lg md:text-xl font-body text-white/50 text-balance max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-6 md:mt-8 text-base md:text-lg lg:text-xl font-body text-white/50 text-balance max-w-2xl mx-auto leading-relaxed">
             O Metodo Velox estrutura a ativacao de novos clientes em ate 2 horas,
             eliminando atrasos, retrabalho e desorganizacao nos primeiros dias do projeto.
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.3}>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="mt-8 md:mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
             <button
               data-cal-link="diego-santos-solifunnel/comomelhorar-oseu-onboarding"
               data-cal-namespace="comomelhorar-oseu-onboarding"
               data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
-              className="relative group font-display font-semibold text-lg px-10 py-4 rounded-md transition-all overflow-hidden tracking-[-0.01em] hover:scale-[1.02] active:scale-[0.98]"
+              className="relative group font-display font-semibold text-base md:text-lg px-6 py-3 md:px-10 md:py-4 rounded-md transition-all overflow-hidden tracking-[-0.01em] hover:scale-[1.02] active:scale-[0.98]"
               style={{
                 background: "hsl(210 100% 62%)",
                 boxShadow: "0 1px 2px rgba(0,0,0,0.4), 0 4px 20px hsl(210 100% 62% / 0.2)",

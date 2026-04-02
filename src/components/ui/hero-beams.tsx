@@ -15,6 +15,8 @@ interface Beam {
 
 const LAYERS = 3;
 const BEAMS_PER_LAYER = 8;
+const MOBILE_LAYERS = 2;
+const MOBILE_BEAMS_PER_LAYER = 3;
 
 function createBeam(width: number, height: number, layer: number): Beam {
   const angle = -35 + Math.random() * 10;
@@ -76,8 +78,11 @@ export function HeroBeams() {
       nCtx.scale(dpr, dpr);
 
       beamsRef.current = [];
-      for (let layer = 1; layer <= LAYERS; layer++) {
-        for (let i = 0; i < BEAMS_PER_LAYER; i++) {
+      const isMobile = w < 768;
+      const layers = isMobile ? MOBILE_LAYERS : LAYERS;
+      const beamsPerLayer = isMobile ? MOBILE_BEAMS_PER_LAYER : BEAMS_PER_LAYER;
+      for (let layer = 1; layer <= layers; layer++) {
+        for (let i = 0; i < beamsPerLayer; i++) {
           beamsRef.current.push(createBeam(w, h, layer));
         }
       }

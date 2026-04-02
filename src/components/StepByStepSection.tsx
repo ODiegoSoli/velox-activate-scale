@@ -20,7 +20,7 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
   const isInView = useInView(ref, { once: true, margin: "-40px" });
 
   return (
-    <div ref={ref} className="relative flex items-stretch gap-4 md:gap-6">
+    <div ref={ref} className="relative flex items-stretch gap-3 md:gap-6">
       {/* Timeline column */}
       <div className="flex flex-col items-center shrink-0 w-8">
         {/* Node */}
@@ -75,7 +75,7 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
         className="pb-6 flex-1"
       >
         <div
-          className="rounded-xl p-5 border border-border/50 hover:border-primary/40 transition-all duration-300 group"
+          className="rounded-xl p-3 md:p-5 border border-border/50 hover:border-primary/40 transition-all duration-300 group"
           style={{ background: "hsl(225 22% 10%)" }}
         >
           <motion.div
@@ -99,10 +99,10 @@ const StepCard = ({ step, index }: { step: typeof steps[0]; index: number }) => 
 
 const StepByStepSection = () => {
   return (
-    <section className="py-20 md:py-28 relative bg-background">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] glow-radial pointer-events-none" />
+    <section className="py-16 md:py-28 relative bg-background">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[200px] md:w-[600px] md:h-[400px] glow-radial pointer-events-none" />
 
-      <div className="container max-w-2xl relative z-10">
+      <div className="container max-w-2xl relative z-10 px-4 md:px-6">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground text-center text-balance">
             De cliente fechado a{" "}

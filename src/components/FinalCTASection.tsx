@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const FinalCTASection = () => {
   return (
-    <section className="py-20 md:py-28 relative overflow-hidden" style={{ background: "hsl(225 25% 7%)" }}>
+    <section className="py-16 md:py-28 relative overflow-hidden" style={{ background: "hsl(225 25% 7%)" }}>
       {/* Top accent line */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[300px] h-[1px]" style={{ background: "linear-gradient(90deg, transparent, hsl(210 100% 62% / 0.25), transparent)" }} />
       
 
-      <div className="container max-w-3xl text-center relative z-10">
+      <div className="container max-w-3xl text-center relative z-10 px-4 md:px-6">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground text-balance">
             Agendar diagnóstico da{" "}
@@ -19,7 +19,7 @@ const FinalCTASection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.15}>
-          <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 md:mt-6 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
             Veja em 30 minutos como estruturar sua agência.
           </p>
         </ScrollReveal>
@@ -30,7 +30,7 @@ const FinalCTASection = () => {
               data-cal-link="diego-santos-solifunnel/comomelhorar-oseu-onboarding"
               data-cal-namespace="comomelhorar-oseu-onboarding"
               data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
-              className="relative group font-display font-bold text-lg px-10 py-4 rounded-md transition-all overflow-hidden hover:scale-[1.02] active:scale-[0.98]"
+              className="relative group font-display font-bold text-base md:text-lg px-6 py-3 md:px-10 md:py-4 rounded-md transition-all overflow-hidden hover:scale-[1.02] active:scale-[0.98]"
               style={{
                 background: "hsl(210 100% 62%)",
                 boxShadow: "0 1px 2px rgba(0,0,0,0.3), 0 4px 16px hsl(210 100% 62% / 0.15)",

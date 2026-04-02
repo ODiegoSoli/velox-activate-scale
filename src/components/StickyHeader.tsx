@@ -21,9 +21,9 @@ const StickyHeader = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="container flex items-center justify-between h-16">
+      <div className="container flex items-center justify-between h-14 md:h-16 px-4 md:px-6">
         <span
-          className="font-display font-bold text-xl tracking-tight text-primary"
+          className="font-display font-bold text-lg md:text-xl tracking-tight text-primary"
           style={{ textShadow: "0 0 15px hsl(210 100% 62% / 0.15)" }}
         >
           VELOX<span className="text-secondary">™</span>
@@ -32,7 +32,7 @@ const StickyHeader = () => {
           data-cal-link="diego-santos-solifunnel/comomelhorar-oseu-onboarding"
           data-cal-namespace="comomelhorar-oseu-onboarding"
           data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
-          className="relative group font-display font-semibold text-sm px-5 py-2.5 rounded-lg transition-all overflow-hidden border border-primary/30"
+          className="relative group font-display font-semibold text-xs md:text-sm px-3 py-2 md:px-5 md:py-2.5 rounded-lg transition-all overflow-hidden border border-primary/30 min-h-[44px] flex items-center"
            style={{
             background: "hsl(210 100% 62% / 0.08)",
             color: "hsl(210 100% 70%)",

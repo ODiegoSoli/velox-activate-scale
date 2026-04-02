@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const ImpactSection = () => {
   return (
-    <section className="py-20 md:py-28 relative bg-background">
-      <div className="container max-w-3xl relative z-10 text-center">
+    <section className="py-16 md:py-28 relative bg-background">
+      <div className="container max-w-3xl relative z-10 text-center px-4 md:px-6">
         <ScrollReveal>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground text-balance">
             O custo de{" "}
@@ -14,10 +14,10 @@ const ImpactSection = () => {
 
         <ScrollReveal delay={0.15}>
           <div
-            className="mt-12 rounded-xl p-8 md:p-10 border border-secondary/20"
+            className="mt-8 md:mt-12 rounded-xl p-5 md:p-8 lg:p-10 border border-secondary/20"
             style={{ background: "hsl(225 20% 10%)" }}
           >
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
               Se sua agência cobra{" "}
               <span className="text-foreground font-bold">R$3.000</span> por cliente
               e perde apenas <span className="text-foreground font-bold">1 cliente por mês</span> por falha operacional
@@ -27,7 +27,7 @@ const ImpactSection = () => {
               whileInView={{ scale: 1, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="mt-6 text-4xl md:text-5xl font-display font-bold text-secondary"
+              className="mt-4 md:mt-6 text-3xl md:text-4xl lg:text-5xl font-display font-bold text-secondary"
             >
               R$36.000/ano
             </motion.p>
@@ -38,7 +38,7 @@ const ImpactSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.3}>
-          <p className="mt-8 text-lg text-foreground font-medium">
+          <p className="mt-6 md:mt-8 text-base md:text-lg text-foreground font-medium">
             Agora compare isso com o custo de estruturar o sistema.
           </p>
         </ScrollReveal>

@@ -2,8 +2,8 @@ import ScrollReveal from "./ScrollReveal";
 
 const ClosingSection = () => {
   return (
-    <section className="py-20 md:py-28 relative bg-background">
-      <div className="container max-w-3xl relative z-10 text-center">
+    <section className="py-16 md:py-28 relative bg-background">
+      <div className="container max-w-3xl relative z-10 text-center px-4 md:px-6">
         <ScrollReveal>
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
             Se sua agência ainda depende de você

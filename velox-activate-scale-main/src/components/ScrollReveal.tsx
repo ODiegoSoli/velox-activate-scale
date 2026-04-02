@@ -31,7 +31,7 @@ const ScrollReveal = ({ children, delay = 0, className = "", direction = "up" }:
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       variants={variants}
-      transition={{ duration: 0.5, delay, ease: [0.25, 0.4, 0.25, 1] }}
+      transition={{ duration: 0.35, delay: delay * 0.6, ease: [0.25, 0.4, 0.25, 1] }}
       className={className}
     >
       {children}
